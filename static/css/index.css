@@ -96,11 +96,11 @@ body {
 .hero.is-light {
   background: var(--background-secondary);
   border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 0.5px solid var(--border-color);
 }
 
 .hero-body {
-  padding: 4rem 1.5rem;
+  padding: 2rem 1rem;
 }
 
 .teaser .hero-body {
@@ -335,7 +335,7 @@ audio {
 /* Section Titles */
 .title.is-3 {
   font-family: 'Inter', sans-serif !important;
-  font-weight: 700 !important;
+  font-weight: 500 !important;
   color: var(--text-primary);
   margin-bottom: 2rem !important;
   position: relative;
@@ -400,6 +400,7 @@ pre {
 }
 
 code {
+
   background: var(--background-accent) !important;
   color: var(--text-primary) !important;
   font-family: 'SF Mono', 'Monaco', 'Cascadia Code', 'Roboto Mono', monospace !important;
@@ -410,7 +411,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .copy-bibtex-btn {
@@ -425,7 +426,7 @@ code {
   transition: var(--transition);
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.1rem;
 }
 
 .copy-bibtex-btn:hover {
